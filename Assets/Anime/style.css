@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --secondary-family: 'Herr Von Mullerhoff', cursive;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: cornsilk;
+    border-radius: 50px;
+}
+
+.navbar{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+   
+
+}
+
+
+.nav-list{
+width: 50%;
+
+display: flex;
+align-items: center;
+}
+
+
+.nav-list li{
+    list-style: none;
+padding: 26px 29px;
+}
+
+.dropdown li{
+    padding: 0px 2px;
+}
+
+.nav-list li a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+
+.dropdown-menu{
+    
+    color: rgb(31, 2, 31);
+}
+
+
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    cursor: pointer;
+    }
+
+.right-navbar{
+    padding: 0 23px;
+    width: 50%;
+    text-align: right;
+
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid white;
+    border-radius: 9px;
+}
